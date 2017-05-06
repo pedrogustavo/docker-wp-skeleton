@@ -1,0 +1,28 @@
+version: '2'
+services:
+  wp:
+    container_name: wp
+    image: wordpress:latest
+    ports:
+      - 80:80
+    volumes:
+      - ./wp:/var/www/html
+    depends_on:
+      - db
+    networks:
+      - wordpress-network
+  db:
+    container_name: db
+    image: mysql:latest
+    ports:
+      - 3306:3306
+    volumes:
+      - ./volume:/var/lib/mysql
+      - ./import:/import
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+    networks:
+      - wordpress-network
+networks:
+  wordpress-network:
+      driver: bridge
