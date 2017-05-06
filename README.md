@@ -3,9 +3,9 @@
 2 - Baixar a versão do wordpress que desejar e decompactar para a pasta `wp`  
 3 - executar o seguinte comando `docker-compose up -d db`  
 4 - conectar dentro do container `docker exec -it db bash`  
-5  - se logar no mysql `mysql -uroot -ppassword`  
+5 - se logar no mysql `mysql -uroot -ppassword`  
 6 - criar database `create database <name>`  
-7 - iniciar wordpress com o seguinte comando `docker compose up -d wp`  
+7 - iniciar wordpress com o seguinte comando `docker-compose up -d wp`  
 
 ## Informações Complementares
 1 - Dados do banco
