@@ -12,3 +12,9 @@
 ```
 mysql -uroot -proot nomedobanco < /import/nomedoarquivo.sql
 ```
+
+## Acessar o projeto
+Para acessar o projeto acesse no seguinte endereço:
+```
+http://localhost/
+```
