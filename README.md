@@ -5,12 +5,13 @@
 ```
 docker-compose up -d db
 ```
-<br/>
+
 4 - Start wordpress with the following command 
 ```
 docker compose up -d wp
 ```
-<br/><br/>
+
+
 ### Additional information
 - Permissions (Permission required to upload images and plugins inside wordpress admin)  
 ```
