@@ -1,20 +1,23 @@
-## Iniciando
-1 - Copiar os arquivos deste repositorio para a pasta do projeto  
-2 - Baixar a versão do wordpress que desejar e decompactar para a pasta `wp`  
-3 - executar o seguinte comando para levantar o banco `docker-compose up -d db`  
-4 - iniciar wordpress com o seguinte comando `docker compose up -d wp`  
-
-## Informações Complementares
-1 - Permissões
-- Execute o seguinte comando `chmod -R 777 wp`
-
-2 - Importar Banco  
+## Getting started
+1 - Copy the files from this repository to the project folder  
+2 - Download the wordpress version you want and unzip to the folder `wp`  
+3 - Run the following command to raise the database  
 ```
-mysql -uroot -proot nomedobanco < /import/nomedoarquivo.sql
+docker-compose up -d db
+```
+4 - Start wordpress with the following command 
+```
+docker compose up -d wp
 ```
 
-## Acessar o projeto
-Para acessar o projeto acesse no seguinte endereço:
+### Additional information
+- Permissions (Permission required to upload images and plugins inside wordpress admin)  
+```
+chmod -R 777 wp
+```
+
+## Access the project
+To access the project go to the following address:
 ```
 http://localhost/
 ```
