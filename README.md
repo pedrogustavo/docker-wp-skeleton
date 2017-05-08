@@ -11,7 +11,7 @@ docker-compose up -d db
 
 4 - Start wordpress with the following command 
 ```
-docker compose up -d wp
+docker-compose up -d wp
 ```
 
 
