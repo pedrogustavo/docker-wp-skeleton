@@ -2,8 +2,8 @@
 > Simple skeleton for wordpress with docker
 
 ## Getting started
-1 - Copy the files from this repository to the project folder
-2 - Download the wordpress version you want and unzip to the folder `wp`
+1 - Copy the files from this repository to the project folder  
+2 - Download the wordpress version you want and unzip to the folder `wp`  
 3 - Run the following command to raise the database
 ```
 docker-compose up -d db
